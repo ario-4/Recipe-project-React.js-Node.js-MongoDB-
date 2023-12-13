@@ -1,0 +1,30 @@
+.btn{
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+ 
+
+}
+.themeSelector{
+    position: absolute;
+    width: 100%;
+}
+.contaner{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-right:100px ;
+    padding-top: 50px;
+    gap: 700px;
+    
+}
+
+.btn_box{
+    display: flex;
+    gap: 5px;
+   
+}

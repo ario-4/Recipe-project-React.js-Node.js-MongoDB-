@@ -1,0 +1,93 @@
+.create {
+    
+    max-width: 480px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .darki{
+    color: #ffffff;
+  }
+  .create form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    outline: none;
+  }
+  .create label span {
+    display: block;
+   
+  }
+  .create p {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+  .create button {
+    display: block;
+    width: 100px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #58249c;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px ;
+  }
+   
+  .ingredients {
+    display: flex;
+    align-items: center;
+  }
+  .ingredients button{
+    margin: 0 0 0 10px;
+  }
+  .ingredient-item{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   
+    
+  }
+  .ingredient-item p{
+    margin: 0;
+  }
+  .icon{
+    color: rgb(142, 142, 142);
+    background-color: rgba(85, 84, 84, 0);
+    height: fit-content;
+    cursor: pointer;
+   position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    width: 10px;
+    height: 15px;
+    right:-5px;
+     top: -7px;
+    font-size: 13px;
+    z-index: 100000;
+  }
+  .icon :first-child{
+   color: black;
+  }
+  .p-tagContaner{
+     font-size: 18px;
+   padding:5px 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   background: #d4d3d3;
+   margin: 10px 5px 10px 5px;
+   border-radius: 2px;
+   border-radius: 10px;
+   position: relative;
+  }
+  .repet{
+   
+    background: #ff9797;
+   
+  }

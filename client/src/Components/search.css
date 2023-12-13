@@ -1,0 +1,54 @@
+#label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.span{
+   font-size: 30px;
+   cursor: pointer;
+    
+}
+#label .after{
+    font-size: 56px;
+    position: absolute;
+    right: -25px;
+    z-index: 10;
+    color: blueviolet;
+    top: -3px; 
+    transition: .3s;
+}
+#label .hidden{
+    visibility:hidden;
+    outline: none;
+    
+}
+#label .input{
+    visibility:visible;
+    outline: none;
+    
+}
+.hidden{
+    
+   display: none;
+}
+.span1{
+    background-color: white;
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   box-shadow: 0 0  5px 1px black inset;
+   top: 8px;
+   left: 6px;
+   z-index: 1000;
+   
+
+}
